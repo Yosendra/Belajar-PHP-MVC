@@ -1,0 +1,2 @@
+# Jangan tracking folder vendor beserta isinya (isinya dependency, nanti install pakai composer)
+vendor/
