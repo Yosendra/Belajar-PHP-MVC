@@ -1,0 +1,49 @@
+Command Composer (Install Dependency) :
+
+1. Command: composer init
+
+2. Atur dependency di file composer.json :
+
+	"require" : {
+		"php": ">=8" 
+	},
+	
+   Jika tambah unit test :
+   
+	"require-dev": {
+		"phpunit/phpunit": "9.5.8"
+	}
+
+3. Command: composer install | update --prefer-source
+
+4. Tambah autoload:
+
+	"autoload": {
+		"psr-4": {
+			"Yosendra\\Belajar\\PHP\\MVC": "app"
+		}
+	}
+	
+   Jika tambah unit test :
+	
+	"autoload-dev": {
+		"psr-4": {
+			"Yosendra\\Belajar\\PHP\\MVC": "tests"
+		}
+	}
+	
+4. Command: composer dump-autoload
+
+============================================================
+
+Local Domain
+Virtual Host Apache XAMPP
+.htaccess file
+
+============================================================
+
+Valid Path
+-> {domain}/hello
+-> {domain}/world
+-> {domain}/about
+-> {domain}/product/{path_variable}/category/{path_variable}
