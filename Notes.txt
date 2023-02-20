@@ -46,4 +46,4 @@ Valid Path
 -> {domain}/hello
 -> {domain}/world
 -> {domain}/about
--> {domain}/product/{path_variable}/category/{path_variable}
+-> {domain}/product/{path_parameter}/category/{path_parameter}
